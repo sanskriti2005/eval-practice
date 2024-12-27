@@ -27,3 +27,14 @@ body{
 #navbar > div > a:hover{
     color: rgb(70, 70, 70);
 }
+/* footer styling */
+footer{
+    background-color: rgb(209, 209, 209);
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
