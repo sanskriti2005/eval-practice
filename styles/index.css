@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar styling */
+#navbar{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    width: 100%;
+    padding: 1.4rem;
+    background-color: rgb(209, 209, 209);
+}
+
+#navbar > div > a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+#navbar > div > a:hover{
+    color: rgb(70, 70, 70);
+}
