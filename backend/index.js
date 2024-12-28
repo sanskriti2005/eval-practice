@@ -13,7 +13,7 @@ loginForm.addEventListener("submit", async (e) => {
         if(await foundUser){
             if(await foundUser.password === passwordInput){
                 alert("Login successful!");
-                window.onload.href = "tasks.html";
+                window.location.href = "tasks.html";
             } else{
                 alert("Wrong Password!");
             }
